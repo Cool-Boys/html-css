@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="main-wrapper regiter2">
+    <div class="main-wrapper  register2">
         <header>
             <!--页头-->
             <nav>
@@ -35,32 +35,28 @@
             <div id="banner">
                 <div class="inner">
                     <form class="form-horizontal">
-                      
-                            <div class="input-group">
-                              <div class="input-group-addon">用　户　名</div>  
-                                <input type="text" name="Email" class="form-control" id="inputEmail3" placeholder="邮箱/用户名" ng-model="Email">
-                          
-                            </div>
-                       
-                         <div class="input-group">
-                              <div class="input-group-addon">设 置 密 码</div>  
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
-                          
-                            </div>
-                         <div class="input-group">
-                              <div class="input-group-addon">确 认 密 码</div>  
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
-                          
-                            </div>
-                     <div class="input-group">
-                              <div class="input-group-addon">验　证　码</div>  
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="密码">
-                          
-                            </div>
+                        <div class="input-group">
+                            <div class="input-group-addon">用　户　名</div>
+                            <input type="text" name="Email" class="form-control " id="inputEmail3" placeholder="邮箱/用户名" ng-model="Email">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon">设 置 密 码</div>
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="输入密码">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon">确 认 密 码</div>
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="确认密码">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-addon">验　证　码</div>
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="验证码">
+                            <span class="input-group-btn">
+        <button class="btn btn-default" type="button">获取验证码</button>
+      </span>
+                        </div>
                         <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-primary">登陆</button>
-                              
+                            <div class="col-sm-offset-2 col-sm-8">
+                                <button id="btnRes" type="submit" class="btn btn-primary">注册</button>
                             </div>
                         </div>
                     </form>

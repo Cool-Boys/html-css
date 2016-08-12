@@ -19,6 +19,13 @@ nav {
 .article #banner {
     height: 300px;
 }
+.regiter #banner .inner {
+    max-width: 400px;
+}
+.register2 #banner .inner {
+    max-width: 400px;
+}
+
 
 .regiter #banner .inner form {
     padding: 10px 30px 0px 30px;
@@ -27,8 +34,26 @@ nav {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.register2 #banner .inner form {
+    padding: 10px 30px 0px 30px;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.register2 #btnRes{
+    margin-top: 5px;
+    width: 150px;
+}
+.register2 #banner .inner form .input-group {
+padding: 15px;
+}
 .regiter .col-sm-2 {
     padding-right: 0px;
+}
+
+.regiter #lrDiv a {
+    text-decoration: none;
+    color: #00FF1F;
 }
 
 nav ul {
@@ -55,6 +80,22 @@ nav ul li a {
     color: #fff;
 }
 
+.regiter nav ul li a {
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
+.register2 nav ul li a {
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
 nav .logo {
     display: inline-block;
     line-height: 50px;
@@ -74,9 +115,6 @@ nav .logo {
     top: 30px
 }
 
-.regiter #banner .inner {
-    max-width: 400px;
-}
 
 #banner .inner h1 {
     margin: 10px 0px 10px 0px;
